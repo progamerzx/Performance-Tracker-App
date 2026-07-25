@@ -1,0 +1,58 @@
+# Logs and System Files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules
+/jspm_packages
+
+# Build outputs
+dist
+dist-ssr
+build
+out
+
+# TypeScript compiler info
+tsconfig.tsbuildinfo
+
+# Coverage directory used by tools
+coverage
+htmlcov
+
+# Environment and secrets
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+.env.development.local
+.env.production.local
+.env.staging.local
+.env.test.local
+
+# IDE/Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+
+# Docker build cache/state
+.docker
+
+# OS-specific files
+ehthumbs.db
+Icon?
